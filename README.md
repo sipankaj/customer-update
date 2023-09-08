@@ -37,14 +37,12 @@ The configuration includes:
 2. **Build the Application**:
 
   ```bash
-  Copy code
   mvn clean package
-
 3. **Run the Batch Job**:
 
   ```bash
-  Copy code
   java -jar target/customer-update-<version>.jar
+
   Replace <version> with the actual version number.
 
 ### Using in Spring Data Flow
