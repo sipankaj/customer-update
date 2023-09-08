@@ -60,17 +60,15 @@ In your Spring Data Flow server, add the Maven coordinates of the customer-updat
 
 Example Maven Coordinates:
 
-Group ID: com.example
-Artifact ID: customer-update
-Version: 1.0.0-SNAPSHOT
-Create and Launch Task in Spring Data Flow Dashboard:
+  - Group ID: com.example
+  - Artifact ID: customer-update
+  - Version: 1.0.0-SNAPSHOT
+3. **Create and Launch Task in Spring Data Flow Dashboard**:
 
-Open the Spring Data Flow Dashboard.
-Create a new task definition that uses the customer-update job.
-Launch the task with appropriate parameters.
-Contributing
-Contributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.
+  - Open the Spring Data Flow Dashboard.
+  - Create a new task definition that uses the customer-update job.
+  - Launch the task with appropriate parameters.
 
-License
+### License
 This project is licensed under the MIT License.
 
