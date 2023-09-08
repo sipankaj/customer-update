@@ -36,12 +36,12 @@ The configuration includes:
    cd customer-update
 2. **Build the Application**:
 
-  ```bash
-  mvn clean package
+   ```bash
+   mvn clean package
 3. **Run the Batch Job**:
 
-  ```bash
-  java -jar target/customer-update-<version>.jar
+   ```bash
+   java -jar target/customer-update-<version>.jar
 
   Replace <version> with the actual version number.
 
@@ -51,10 +51,9 @@ The configuration includes:
   - Ensure Maven is installed on your system.
 
   - Navigate to the root directory of the project and run:
-
-  ```bash
-  Copy code
-  mvn clean install
+    
+    ```bash
+    mvn clean install
 2. **Add Maven Coordinates to Spring Data Flow Server**:
 
 In your Spring Data Flow server, add the Maven coordinates of the customer-update job to your application registry.
